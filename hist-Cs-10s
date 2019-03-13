@@ -12,10 +12,6 @@
     }
 
     gStyle->SetOptFit(1111);
-
-    //h1->Sumw2();
-    //Double_t norm = h1->GetEntries();
-    //h1->Scale(1/norm);
     
      f1->SetParameters(5,100);
      h1->Fit("f1","E","+");
