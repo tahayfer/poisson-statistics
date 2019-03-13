@@ -6,6 +6,6 @@ y=[0,0,0,721,741,808,811,806]
 plt.plot(x,y)
 plt.xlabel('g-m tube voltage-V')
 plt.ylabel('important var')
-plt.title('G-M Tube Voltage vs Count')#\n alt satıra geçip yeni altbaşlık yapii
+plt.title('G-M Tube Voltage vs Count')
 
 plt.show()
